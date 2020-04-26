@@ -35,13 +35,13 @@ public class Coupling {
 
     List<String> list = new ArrayList<>();
 
-    void doSomething(ArrayList<String> list) {
+    void doSomething(List<String> list) {
         String firstItem = list.get(0);
 
         // do something with firstItem
     }
 
-    void doSomethingElse(ArrayList<String> list) {
+    void doSomethingElse(List<String> list) {
         String lastItem = list.get(list.size() - 1);
 
         // do something with lastItem
